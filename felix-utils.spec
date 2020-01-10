@@ -3,7 +3,7 @@
 
 Name:             felix-utils
 Version:          1.2.0
-Release:          4%{?dist}
+Release:          5%{?dist}
 Summary:          Utility classes for OSGi
 License:          ASL 2.0
 Group:            Development/Libraries
@@ -55,6 +55,9 @@ This package contains the API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2.0-5
+- Mass rebuild 2013-12-27
+
 * Wed Sep 18 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.2.0-4
 - Add missing BR: felix-parent
 
